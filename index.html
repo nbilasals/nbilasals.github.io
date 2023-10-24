@@ -124,12 +124,14 @@
 				<h1 class="mb-2 mt-0">Nabilla Salsa Billa</h1>
 				<span>I'm an <span class="text-rotating">IT Student, AI Enthusiast, author of my life</span></span>
 
-				<!-- social icons -->				<ul class="social-icons light list-inline mb-0 mt-4">
-					<li class="list-inline-item"><a href="https://www.instagram.com/nbilasals/"><i class="fab fa-instagram"></i></a></li>
+				<!-- social icons -->				
+				<ul class="social-icons light list-inline mb-0 mt-4">
 					<li class="list-inline-item"><a href="https://github.com/nbilasals"><i class="fab fa-github"></i></a></li>
+					<li class="list-inline-item"><a href="https://www.linkedin.com/in/nbilasals/"><i class="fab fa-linkedin"></i></a></li>
+					<li class="list-inline-item"><a href="https://medium.com/@nbnbnbila"><i class="fab fa-medium-m"></i></a></li>
 					<li class="list-inline-item"><a href="https://open.spotify.com/show/6TyEYiQYU7UoIKDDydUcdG?si=3f912c069d6b40f2"><i class="fab fa-spotify"></i></a></li>
 					<li class="list-inline-item"><a href="https://www.youtube.com/channel/UCdFCQU7dleqX81nFMyR7PSw/videos"><i class="fab fa-youtube"></i></a></li>
-					<li class="list-inline-item"><a href="https://www.linkedin.com/in/nbilasals/"><i class="fab fa-linkedin"></i></a></li>
+					<li class="list-inline-item"><a href="https://www.instagram.com/nbilasals/"><i class="fab fa-instagram"></i></a></li>
 				</ul>
 
 				<!-- buttons -->
@@ -204,7 +206,7 @@
 								<!-- about text -->
 								<p>I am Nabila, currently studying in Informatics Engineering. I am eager to learn. I'm interested in web site design and building and customization, lately i'm learning about Machine Learning and Artificial Inteligence. Also I am good at WordPress.</p>
 								<div class="mt-3">
-									<a href="#" class="btn btn-default">Download CV</a>
+									<a href="images/Nabilla Salsa Billa-resume (1).pdf" class="btn btn-default">Download CV</a>
 								</div>
 								<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 							</div>
@@ -246,18 +248,6 @@
 										</div>
 									</div>
 								</div>
-
-								<!-- skill item -->
-								<div class="skill-item">
-									<div class="skill-info clearfix">
-										<h4 class="float-left mb-3 mt-4">Python</h4>
-										<span class="float-right mt-4">70%</span>
-									</div>
-									<div class="progress">
-										<div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="70" data-color="#6W6CF5">
-										</div>
-									</div>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -266,29 +256,83 @@
 			</div>
 			<!-- row end -->
 
-			<div class="spacer" data-height="70"></div>
+	<!-- section works & projects -->
+	<section id="works">
+
+		<div class="container">
 			
-			<div class="row">
-				
-				<div class="col-md-3 col-sm-6">
-					<!-- fact item -->
-					<div class="fact-item">
-						<span class="icon icon-fire"></span>
-						<div class="details">
-							<h3 class="mb-0 mt-0 number"><em class="count">4</em></h3>
-							<p class="mb-0">Projects completed</p>
+			<!-- section title -->
+			<h2 class="section-title wow fadeInUp">Projects</h2>
+
+			<div class="spacer" data-height="60"></div>
+
+			<!-- portfolio filter (desktop) -->
+			<ul class="portfolio-filter list-inline wow fadeInUp">
+				<li class="current list-inline-item" data-filter="*">All</li>
+				<li class="list-inline-item" data-filter=".edu">Edu</li>
+				<li class="list-inline-item" data-filter=".ml">Machine Learning</li>
+				<li class="list-inline-item" data-filter=".design">Design</li>
+				<li class="list-inline-item" data-filter=".art">Art</li>
+			</ul>
+			
+			<!-- portfolio filter (mobile) -->
+			<div class="pf-filter-wrapper">
+				<select class="portfolio-filter-mobile">
+					<option value="*">All</option>
+					<option value=".edu">Edu</option>
+					<option value=".art">Art</option>
+					<option value=".design">Design</option>
+					<option value=".ml">Machine Learning</option>
+				</select>
+			</div>
+			
+			<!-- portolio wrapper -->
+			<div class="row portfolio-wrapper">
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item ml design">
+					<a href="#nutrigie-dialog" class="work-content">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Machine Learning, Design</span>
+								<h4 class="title">NutriGie: Your Daily Nutrition Guide</h4>
+								<span class="more-button"><i class="icon-options"></i></span>
+							</div>
+							<div class="thumb ml-5">
+								<img src="images/Chef-bro (1).svg" alt="Portfolio-title" width="215px" height="215px" />
+								<div class="mask"></div>
+							</div>
 						</div>
+					</a>
+					<div id="nutrigie-dialog" class="white-popup zoom-anim-dialog mfp-hide">
+						<img src="images/NutriGie.png" alt="Title" />
+						<h2>NutriGie: Your Daily Nutrition Guide</h2>
+						<p>NutriGie is an app designed to make healthy eating simple and convenient. By recommending foods based on your personal preferences and nutritional needs, and helping you track your daily nutritional intake, NutriGie puts healthier choices at your fingertips.</p>
+						<a href="https://app-hkvu6ero4a-et.a.run.app/" class="btn btn-default">Visit</a>
 					</div>
 				</div>
 
-				<div class="col-md-3 col-sm-6">
-					<!-- fact item -->
-					<div class="fact-item">
-						<span class="icon icon-cup"></span>
-						<div class="details">
-							<h3 class="mb-0 mt-0 number"><em class="count">1000</em></h3>
-							<p class="mb-0">Cup of coffee</p>
+		
+
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item ml">
+					<a href="#small-dialog" class="work-content">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Machine Learning</span>
+								<h4 class="title">Employee Attrition</h4>
+								<span class="more-button"><i class="icon-options"></i></span>
+							</div>
+							<div class="thumb">
+								<img src="images/works/End of workday-pana.svg" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
 						</div>
+					</a>
+					<div id="small-dialog" class="white-popup zoom-anim-dialog mfp-hide">
+						<img src="images/works/Company-amico.png" alt="Title" />
+						<h2>Employee Attrition</h2>
+						<p>This project is to predict the employee attrition. For a company to be successful, it needs not only to attract top talent but it also needs to retain these talents. For this reason, in this project we'll look into a dataset containing information regarding a certain company's employee list to try to find patterns that may provide useful information in understanding why employees leave and to predict the employee attrition..</p>
+						<a href="https://github.com/nbilasals/employee_attrition" class="btn btn-default">View on GitHub</a>
 					</div>
 				</div>
 
@@ -306,64 +350,69 @@
 								<div class="mask"></div>
 							</div>
 						</div>
+					</a>
+					<div id="small-dialog1" class="white-popup zoom-anim-dialog mfp-hide">
+						<img src="images/works/Niche service marketplace-bro.svg" alt="Title" />
+						<h2>Customer Segmentation</h2>
+						<p>Existing customers and those with high loyalty to the company need to be retained because they have a significant impact on the business. To achieve this, a segmentation process is necessary, where customers with common characteristics are grouped together. This can be done by segmenting customers based on specific criteria. The research methodology includes data understanding, data preparation, data preprocessing, modeling, and evaluation. The data for this study is sourced from Kaggle's 'Customer Personality Analysis,' focusing on customer habits and demographic</p>
+						<a href="https://github.com/nbilasals/customer_segmenttaion" class="btn btn-default">View on GitHub</a>
 					</div>
 				</div>
 
-				<div class="col-md-3 col-sm-6">
-					<!-- fact item -->
-					<div class="fact-item">
-						<span class="icon icon-badge"></span>
-						<div class="details">
-							<h3 class="mb-0 mt-0 number"><em class="count">3</em></h3>
-							<p class="mb-0">Nominees winner</p>
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item art">
+					<a href="https://open.spotify.com/user/3152gep6ai2eqvapzfk7toerodrm?si=79d55da2255b4092" class="work-video">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Art</span>
+								<h4 class="title">Nabilla's playslist</h4>
+								<span class="more-button"><i class="icon-music-tone-alt"></i></span>
+							</div>
+							<div class="thumb">
+								<img src="images/works/4.svg" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
 						</div>
 					</a>
 				</div>
 
-			</div>
-
-		</div>
-		
-	</section>
-	
-	<!-- section hobbies -->
-	<section id="services">
-
-		<div class="container">
-			
-			<!-- section title -->
-			<h2 class="section-title wow fadeInUp">Hobbies</h2>
-
-			<div class="spacer" data-height="60"></div>
-			
-			<div class="row">
-
-				<div class="col-md-4">
-					<!-- service box -->
-					<div class="service-box rounded data-background padding-30 text-center text-light shadow-blue" data-color="#6C6CE5">
-						<img src="images/service-1.svg" alt="UI/UX design" />
-						<h3 class="mb-3 mt-0">Music</h3>
-						<p class="mb-0"></p>
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item art edu">
+					<a href="#gallery-1" class="gallery-link">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Art, Edu</span>
+								<h4 class="title">Anastudy Mockup Design</h4>
+								<span class="more-button"><i class="icon-picture"></i></span>
+							</div>
+							<div class="thumb">
+								<img src="images/works/5.svg" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
+					<div id="gallery-1" class="gallery mfp-hide">
+						<a href="images/blog/anastudy1.png"></a>
+						<a href="images/blog/anastudy2.png"></a>
+						<a href="images/blog/anastudy3.png"></a>
 					</div>
 				</div>
 
-				<div class="col-md-4">
-					<!-- service box -->
-					<div class="service-box rounded data-background padding-30 text-center shadow-yellow" data-color="#F9D74C">
-						<img src="images/service-2.svg" alt="UI/UX design" />
-						<h3 class="mb-3 mt-0">Writing</h3>
-						<p class="mb-0"></p>
-					</div>
-					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
-				</div>
-
-				<div class="col-md-4">
-					<!-- service box -->
-					<div class="service-box rounded data-background padding-30 text-center text-light shadow-pink" data-color="#F97B8B">
-						<img src="images/service-3.svg" alt="UI/UX design" />
-						<h3 class="mb-3 mt-0">Photography</h3>
-						<p class="mb-0"></p>
-					</div>
+				<!-- portfolio item -->
+				<div class="col-md-4 col-sm-6 grid-item creative">
+					<a href="https://www.wattpad.com/user/nbilaaarzkn">
+						<div class="portfolio-item rounded shadow-dark">
+							<div class="details">
+								<span class="term">Creative</span>
+								<h4 class="title">Wattpad Stories</h4>
+								<span class="more-button"><i class="icon-link"></i></span>
+							</div>
+							<div class="thumb">
+								<img src="images/works/6.svg" alt="Portfolio-title" />
+								<div class="mask"></div>
+							</div>
+						</div>
+					</a>
 				</div>
 
 			</div>
@@ -381,7 +430,8 @@
 		</div>
 
 	</section>
-		<!--Section Blog-->
+	
+	<!--Section Blog-->
 	<section id="blog">
 
 		<div class="container">
@@ -469,228 +519,8 @@
 		</div>
 
 	</section>
+
 	
-	<!-- section works -->
-	<section id="works">
-
-		<div class="container">
-			
-			<!-- section title -->
-			<h2 class="section-title wow fadeInUp">Projects</h2>
-
-			<div class="spacer" data-height="60"></div>
-
-			<!-- portfolio filter (desktop) -->
-			<ul class="portfolio-filter list-inline wow fadeInUp">
-				<li class="current list-inline-item" data-filter="*">All</li>
-				<li class="list-inline-item" data-filter=".creative">Edu</li>
-				<li class="list-inline-item" data-filter=".art">Machine Learning</li>
-				<li class="list-inline-item" data-filter=".design">Design</li>
-			</ul>
-			
-			<!-- portfolio filter (mobile) -->
-			<div class="pf-filter-wrapper">
-				<select class="portfolio-filter-mobile">
-					<option value="*">All</option>
-					<option value=".creative">Edu</option>
-					<option value=".art">Art</option>
-					<option value=".design">Design</option>
-					<option value=".branding">Branding</option>
-				</select>
-			</div>
-			
-			<!-- portolio wrapper -->
-			<div class="row portfolio-wrapper">
-				
-				<!-- portfolio item -->
-				<div class="col-md-4 col-sm-6 grid-item art">
-					<a href="images/works/Image upload-cuate.svg" class="work-image">
-						<div class="portfolio-item rounded shadow-dark">
-							<div class="details">
-								<span class="term">Design</span>
-								<h4 class="title">Kripik Lover Website</h4>
-								<span class="more-button"><i class="icon-magnifier-add" href="https://kripiklover.wordpress.com/nabs-log/" ></i></span>
-							</div>
-							<div class="thumb">
-								<img src="images/works/Image upload-cuate.svg" alt="Portfolio-title" href="https://kripiklover.wordpress.com/nabs-log/" />
-								<div class="mask"></div>
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<!-- portfolio item -->
-				<div class="col-md-4 col-sm-6 grid-item creative design">
-					<a href="#small-dialog" class="work-content">
-						<div class="portfolio-item rounded shadow-dark">
-							<div class="details">
-								<span class="term">Machine Learning</span>
-								<h4 class="title">Employee Attrition</h4>
-								<span class="more-button"><i class="icon-options"></i></span>
-							</div>
-							<div class="thumb">
-								<img src="images/works/End of workday-pana.svg" alt="Portfolio-title" />
-								<div class="mask"></div>
-							</div>
-						</div>
-					</a>
-					<div id="small-dialog" class="white-popup zoom-anim-dialog mfp-hide">
-						<img src="images/works/Company-amico.png" alt="Title" />
-						<h2>Employee Attrition</h2>
-						<p>This project is to predict the employee attrition. For a company to be successful, it needs not only to attract top talent but it also needs to retain these talents. For this reason, in this project we'll look into a dataset containing information regarding a certain company's employee list to try to find patterns that may provide useful information in understanding why employees leave and to predict the employee attrition..</p>
-						<a href="https://github.com/nbilasals/employee_attrition" class="btn btn-default">View on GitHub</a>
-					</div>
-				</div>
-
-				<!-- portfolio item -->
-				<div class="col-md-4 col-sm-6 grid-item branding">
-					<a href="#small-dialog1" class="work-content">
-						<div class="portfolio-item rounded shadow-dark">
-							<div class="details">
-								<span class="term">Machine Learning</span>
-								<h4 class="title">Clustering of Customer Segmentation</h4>
-								<span class="more-button"><i class="icon-options"></i></span>
-							</div>
-							<div class="thumb">
-								<img src="images/works/Customer relationship management-bro.svg" alt="Portfolio-title" />
-								<div class="mask"></div>
-							</div>
-						</div>
-					</a>
-					<div id="small-dialog1" class="white-popup zoom-anim-dialog mfp-hide">
-						<img src="images/works/Niche service marketplace-bro.svg" alt="Title" />
-						<h2>Customer Segmentation</h2>
-						<p>Pelanggan lama dan pelanggan yang memiliki loyalitas tinggi terhadap perusahaan perlu dipertahankan karena sangat berpengaruh terhadap perusahaan, untuk itu perlu dilakukan proses segmentasi dengan cara mengelompokkan pelanggan yang memiliki kesamaan tertentu menjadi satu. Hal ini dapat dilakukan dengan proses segmentasi dengan mengelompokkan pelanggan yang memiliki kemudahan tertentu menjadi satu. Metode penelitian meliputi pemahaman data, persiapan data, preprocessing data, pemodelan, evaluasi. Data yang digunakan dalam penelitian ini diambil dari kebiasaan dan demografi pelanggan dari Kaggle "Customer Personality Analysis". Pada segmentasi pelanggan ini diterapkan metode clustering yang merupakan salah satu metode dalam data mining untuk mengelompokkan sejumlah data ke dalam kelompok-kelompok tertentu, seperti K-Means Clustering, DBScan dan algoritma Agglomerative.</p>
-						<a href="https://github.com/nbilasals/customer_segmenttaion" class="btn btn-default">View on GitHub</a>
-					</div>
-				</div>
-
-				<!-- portfolio item -->
-				<div class="col-md-4 col-sm-6 grid-item creative">
-					<a href="\https://open.spotify.com/track/1Ry0l6trESL8T4ddsRaYLE?si=b146b2bed2404298 class="work-video">
-						<div class="portfolio-item rounded shadow-dark">
-							<div class="details">
-								<span class="term">Creative</span>
-								<h4 class="title">nabilla's playslist</h4>
-								<span class="more-button"><i class="icon-music-tone-alt"></i></span>
-							</div>
-							<div class="thumb">
-								<img src="images/works/4.svg" alt="Portfolio-title" />
-								<div class="mask"></div>
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<!-- portfolio item -->
-				<div class="col-md-4 col-sm-6 grid-item art branding">
-					<a href="#gallery-1" class="gallery-link">
-						<div class="portfolio-item rounded shadow-dark">
-							<div class="details">
-								<span class="term">Art, Edu</span>
-								<h4 class="title">Anastudy Mockup Design</h4>
-								<span class="more-button"><i class="icon-picture"></i></span>
-							</div>
-							<div class="thumb">
-								<img src="images/works/5.svg" alt="Portfolio-title" />
-								<div class="mask"></div>
-							</div>
-						</div>
-					</a>
-					<div id="gallery-1" class="gallery mfp-hide">
-						<a href="images/blog/anastudy1.png"></a>
-						<a href="images/blog/anastudy2.png"></a>
-						<a href="images/blog/anastudy3.png"></a>
-					</div>
-				</div>
-
-				<!-- portfolio item -->
-				<div class="col-md-4 col-sm-6 grid-item creative design">
-					<a href=" target="_blank">
-						<div class="portfolio-item rounded shadow-dark">
-							<div class="details">
-								<span class="term">Creative, Design</span>
-								<h4 class="title">Coming Soon</h4>
-								<span class="more-button"><i class="icon-link"></i></span>
-							</div>
-							<div class="thumb">
-								<img src="images/works/6.svg" alt="Portfolio-title" />
-								<div class="mask"></div>
-							</div>
-						</div>
-					</a>
-				</div>
-
-			</div>
-			
-			<!-- more button -->
-			<div class="load-more text-center mt-4">
-				<a href="https://github.com/nbilasals/" class="btn btn-default"><i class="fas fa-spinner"></i> Load more</a>
-				<!-- numbered pagination (hidden for infinite scroll) -->
-				<ul class="portfolio-pagination list-inline d-none">
-					<li class="list-inline-item">1</li>
-					<li class="list-inline-item"><a href="works-2.html">2</a></li>
-				</ul>
-			</div>
-
-		</div>
-
-	</section>
-	
-	<!-- section prices -->
-	<!-- <section id="prices">
-
-		<div class="container">
-			
-			section title 
-			<h2 class="section-title wow fadeIn">Pricing Plans</h2>
-
-			<div class="spacer" data-height="60"></div>
-			
-			<div class="row">
-				
-				<div class="col-md-4 pr-md-0 mt-md-4 mt-0">
-					 price item 
-					<div class="price-item bg-white rounded shadow-dark text-center">
-						<img src="images/price-1.svg" alt="Regular" />
-						<h2 class="plan">Basic</h2>
-						<p>A Simple option but powerful to manage your business</p>
-						<p>Email support</p>
-						<h3 class="price"><em>$</em>9<span>Month</span></h3>
-						<a href="#" class="btn btn-default">Get Started</a>
-					</div>
-				</div>
-
-				<div class="col-md-4 px-md-0 my-4 my-md-0">
-					 price item recommended 
-					<div class="price-item bg-white rounded shadow-dark text-center best">
-						<span class="badge">Recommended</span>
-						<img src="images/price-2.svg" alt="Premium" />
-						<h2 class="plan">Premium</h2>
-						<p>Unlimited product including apps integrations and more features</p>
-						<p>Mon-Fri support</p>
-						<h3 class="price"><em>$</em>49<span>Month</span></h3>
-						<a href="#" class="btn btn-default">Get Started</a>
-					</div>
-				</div>
-
-				<div class="col-md-4 pl-md-0 mt-md-4 mt-0">
-					 price item 
-					<div class="price-item bg-white rounded shadow-dark text-center">
-						<img src="images/price-3.svg" alt="Ultimate" />
-						<h2 class="plan">Ultimate</h2>
-						<p>A wise option for large companies and individuals</p>
-						<p>24/7 support</p>
-						<h3 class="price"><em>$</em>99<span>Month</span></h3>
-						<a href="#" class="btn btn-default">Get Started</a>
-					</div>
-				</div>
-
-			</div>
-
-		</div>
-
-	</section> -->
 	
 	<!-- section testimonials -->
 	<section id="testimonials">
@@ -733,78 +563,7 @@
 
 	
 	<!-- section blog -->
-	
-	<!-- section contact -->
-	<section id="contact">
 
-		<div class="container">
-			
-			<!-- section title -->
-			<h2 class="section-title wow fadeInUp">Get In Touch</h2>
-
-			<div class="spacer" data-height="60"></div>
-			
-			<div class="row">
-				
-				<div class="col-md-4">
-					<!-- contact info -->
-					<div class="contact-info">
-						<h3 class="wow fadeInUp">Let's talk about everything!</h3>
-						<p class="wow fadeInUp">Don't like forms? Send me an <a href="mailto:rudyfathur26@gmail.com">email</a>. 👋</p>
-					</div>
-				</div>
-
-				<div class="col-md-8">
-					<!-- Contact Form -->
-					<form id="contact-form" class="contact-form mt-6" method="post" action="https://pxltheme.com/html/bolby/demo/form/contact.php">
-						
-						<div class="messages"></div>
-						
-						<div class="row">
-							<div class="column col-md-6">
-								<!-- Name input -->
-								<div class="form-group">
-									<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Your name" required="required" data-error="Name is required.">
-									<div class="help-block with-errors"></div>
-								</div>
-							</div>
-							
-							<div class="column col-md-6">
-								<!-- Email input -->
-								<div class="form-group">
-									<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email address" required="required" data-error="Email is required.">
-									<div class="help-block with-errors"></div>
-								</div>
-							</div>
-
-							<div class="column col-md-12">
-								<!-- Email input -->
-								<div class="form-group">
-									<input type="text" class="form-control" id="InputSubject" name="InputSubject" placeholder="Subject" required="required" data-error="Subject is required.">
-									<div class="help-block with-errors"></div>
-								</div>
-							</div>
-					
-							<div class="column col-md-12">
-								<!-- Message textarea -->
-								<div class="form-group">
-									<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="Message" required="required" data-error="Message is required."></textarea>
-									<div class="help-block with-errors"></div>
-								</div>
-							</div>
-						</div>
-
-						<button type="submit" name="submit" id="submit" value="Submit" class="btn btn-default">Send</button><!-- Send Button -->
-
-					</form>
-					<!-- Contact Form end -->
-				</div>
-
-			</div>
-
-		</div>
-
-	</section>
 
 	<div class="spacer" data-height="96"></div>
 	
