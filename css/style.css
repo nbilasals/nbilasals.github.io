@@ -1019,10 +1019,11 @@ h4,
 
 .portfolio-item img {
   width: 100%;
-  height: 200px;
-  /* Atur tinggi sesuai preferensi */
+  aspect-ratio: 16 / 9;
+  /* Rasio aspek, misalnya 16:9 */
   object-fit: cover;
-  /* Crop gambar supaya tetap proporsional */
+  /* Menjaga rasio tanpa nge-stretch */
+
 }
 
 .gsap-reveal-img {
